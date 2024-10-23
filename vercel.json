@@ -1,9 +1,0 @@
-{
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/muncheese",
-      "permanent": true
-    }
-  ]
-}
