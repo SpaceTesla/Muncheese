@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <div
       className={
-        'navbar flex justify-between align-middle border-b px-16 py-4 items-center'
+        'navbar flex justify-between align-middle border-b px-16 py-4 items-center fixed top-0 w-full bg-ghost-white z-10'
       }
     >
       <div className="logo-wrapper">

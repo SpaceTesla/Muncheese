@@ -23,7 +23,11 @@ const ItemsWrapper = () => {
   }, []);
 
   return (
-    <div className={'item-wrapper flex flex-col gap-8 w-10/12 mx-auto'}>
+    <div
+      className={
+        'item-wrapper mt-20 max-w-screen-sm flex flex-col mx-auto gap-8'
+      }
+    >
       {categories.map((category) => (
         <div key={category.id} id={category.id}>
           <CategoryItemWrapper category={category} />

@@ -1,4 +1,4 @@
-// components/GradientBackground.js
+// components/GradientBackground.jsx
 
 import React from 'react';
 

@@ -3,10 +3,14 @@ import Image from 'next/image';
 
 const CategoryItemWrapper = ({ category }) => {
   return (
-    <div className={'category-item-wrapper shadow rounded-xl overflow-hidden'}>
+    <div
+      className={
+        'category-item-wrapper shadow-lg rounded-xl overflow-hidden bg-white'
+      }
+    >
       <h3
         className={
-          'text-2xl text-white bg-blue-950 px-4 mt-auto pb-4 font-semibold flex items-end gradient-overlay'
+          'text-2xl text-white bg-blue-950 px-4 pb-4 font-semibold flex items-end gradient-overlay'
         }
         style={{
           backgroundImage: `url(${category.image})`,

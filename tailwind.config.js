@@ -51,9 +51,10 @@ module.exports = {
         },
         custom: {
           checked: '#4CAF50', // Custom color for checked state
-          unchecked: '#A9A9A9', // Custom color for unchecked state
+          unchecked: '#cfd4d5', // Custom color for unchecked state
           thumb: '#FFFFFF', // Custom color for the thumb
         },
+        'ghost-white': '#f9f9f9',
       },
       borderRadius: {
         lg: 'var(--radius)',
